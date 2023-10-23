@@ -6,6 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Pinterest Tag -->
+    <script>
+      !function(e){if(!window.pintrk){window.pintrk = function () {
+      window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+        n=window.pintrk;n.queue=[],n.version="3.0";var
+        t=document.createElement("script");t.async=!0,t.src=e;var
+        r=document.getElementsByTagName("script")[0];
+        r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+      pintrk('load', '2613724365519', {em: '<user_email_address>'});
+      pintrk('page');
+      </script>
+      <noscript>
+      <img height="1" width="1" style="display:none;" alt=""
+        src="https://ct.pinterest.com/v3/?event=init&tid=2613724365519&pd[em]=<hashed_email_address>&noscript=1" />
+      </noscript>
+      <!-- end Pinterest Tag -->
+  
+    <script>
+      pintrk('track', 'pagevisit', {
+        event_id: 'eventIdEbookPageVisit'
+      });
+    </script>
+    <script>
+      pintrk('track', 'addtocart', {
+        event_id: 'eventIdAddToCart',
+        value: 0,  // You can set an appropriate value if needed
+        order_quantity: 1,
+        currency: 'USD'
+      });
+      </script>
+      <script>
+        pintrk('track', 'checkout', {
+          event_id: 'eventIdCheckout',
+          value: 0,  // You can set an appropriate value if needed
+          order_quantity: 1,
+          currency: 'USD'
+        });
+      </script>
+      <script>
+        pintrk('track', 'lead', {
+          event_id: 'eventIdLeadGeneration',
+          lead_type: 'EbookSignup'  // Adjust 'EbookSignup' as needed
+        });
+        </script>
+    
   </head>
   <body>
     <div id="root"></div>

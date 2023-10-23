@@ -16,7 +16,7 @@ function App() {
           <img src="cover.jpg" alt="Ebook Cover" />
         </div>
         <div className="ebook-description mb-6">
-          <a href="https://whop.com/eleanor-quinn/?pass=prod_1EyUnwLpoGKmZ">
+          <a href="https://whop.com/checkout/plan_L0nqh7fbkmFon?d2c=true">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-12 rounded-full transition duration-300 ease-in-out">
               DOWNLOAD NOW
             </button>
@@ -48,7 +48,7 @@ function App() {
           </div>
           <p className="text-xl">for the price of a lunch...</p>
           <h2 className='text-xl font-bold my-6'>are you ready to be a self-care pro?</h2>
-          <a href="https://whop.com/eleanor-quinn/?pass=prod_1EyUnwLpoGKmZ">
+          <a href="https://whop.com/checkout/plan_L0nqh7fbkmFon?d2c=true">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-12 rounded-full transition duration-300 ease-in-out">
               GET THE BOOK
             </button>
